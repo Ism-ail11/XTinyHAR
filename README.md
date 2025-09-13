@@ -311,21 +311,6 @@ Full figure/table generators live in `Experimental_Results/`.
 
 ---
 
-## 📚 Citation
-
-If you use XTinyHAR, please cite:
-
-```bibtex
-@article{XTinyHAR2025,
-  title   = {XTinyHAR: Lightweight, Explainable Human Activity Recognition via Multimodal-to-Unimodal Distillation},
-  author  = {Your Name and Coauthors},
-  journal = {Scientific Reports},
-  year    = {2025},
-  note    = {Under major revision},
-}
-```
-
-Related works (APA/LaTeX entries are in your paper’s `\\bibitem{}` list).
 
 ---
 
@@ -343,22 +328,7 @@ We thank the maintainers of UTD-MHAD and MM-Fit datasets, and the open-source co
 
 ## 💬 Contact
 
-- Maintainer: Your Name — email@domain.com  
+- Maintainer: Ismail Lamaakal — ismail Lamaakal@ieee.org  
 - Issues/bugs: please open a GitHub issue with logs, config, and environment details.
 
 ---
-
-**Pro tip:** after you paste this as `README.md`, update dataset paths in the YAMLs, then run:
-
-```bash
-# 1) preprocess
-python Data_preprocessing/cli/build_tokens.py --config Our_proposed_model/configs/utd_mhad.yaml --dataset utd-mhad --out data_cache/utd_tokens.npz
-# 2) train teacher
-python Our_proposed_model/xtinyhar_models/train_teacher.py --config Our_proposed_model/configs/utd_mhad.yaml --tokens data_cache/utd_tokens.npz --save runs/teacher_utd.pt
-# 3) train student (KD)
-python Our_proposed_model/xtinyhar_models/train_student.py --config Our_proposed_model/configs/utd_mhad.yaml --tokens data_cache/utd_tokens.npz --teacher runs/teacher_utd.pt --save runs/student_it_utd.pt
-# 4) XAI
-python XAI/examples/run_xai_demo.py --model runs/student_it_utd.pt --config Our_proposed_model/configs/utd_mhad.yaml --tokens data_cache/utd_tokens.npz --out xai_outputs/
-# 5) Export
-python Our_proposed_model/xtinyhar_models/export_onnx.py --model runs/student_it_utd.pt --config Our_proposed_model/configs/utd_mhad.yaml --out exports/xtinyhar_student.onnx
-```
