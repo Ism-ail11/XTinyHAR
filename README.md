@@ -4,9 +4,6 @@ XTinyHAR is a compact, edge-deployable Human Activity Recognition (HAR) framewor
 
 ## Model Architecture
 
-<!-- Markdown (simple) -->
-![XTinyHAR Architecture](Model_Arch (1).png)
-
 <!-- Optional: control size with HTML if it’s huge -->
 <p align="center">
   <img src="Model_Arch (1).png" alt="XTinyHAR Architecture" width="720">
