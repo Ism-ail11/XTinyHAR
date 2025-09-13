@@ -315,9 +315,6 @@ Full figure/table generators live in `Experimental_Results/`.
 
 ---
 
-
----
-
 ## 📄 License
 
 This project is released under the **MIT License** (see `LICENSE`).
