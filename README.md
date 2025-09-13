@@ -45,11 +45,11 @@ XTinyHAR/
 │  └─ examples/
 │     └─ run_xai_demo.py
 │
-├─ Experimental_Results/            # figure/table generators for the paper
+├─ Experimental_Results/            # figure/tables
 │  ├─ examples/
 │  │  └─ run_results_demo.py
-│  ├─ images/  (generated)
-│  └─ tables/  (generated)
+│  ├─ images/
+│  └─ tables/
 │
 ├─ images/                          # paper figures (confusion matrices, curves, etc.)
 ├─ requirements.txt
