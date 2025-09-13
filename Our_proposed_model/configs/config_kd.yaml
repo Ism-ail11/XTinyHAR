@@ -1,0 +1,26 @@
+
+dataset:
+  window_size: 100
+  in_channels: 6
+  num_classes: 27
+
+student:
+  dim: 128
+  depth: 2
+  heads: 4
+  patch_size: 20
+
+teacher:
+  dim: 128
+  depth: 2
+  heads: 4
+
+optim:
+  lr: 1e-4
+  epochs_teacher: 5
+  epochs_student: 10
+  weight_decay: 1e-5
+
+kd:
+  T: 3.0
+  alpha: 0.7

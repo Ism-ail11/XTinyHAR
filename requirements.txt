@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+torch>=1.13
+numpy>=1.22
+matplotlib>=3.6
+scikit-learn>=1.1
+tqdm>=4.64
+=======
+numpy>=1.21
+scipy>=1.7
+pandas>=1.3
+>>>>>>> 13bc9c0595d906eb00cb77a1cc3b8986b3701f0e
