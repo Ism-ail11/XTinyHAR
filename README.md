@@ -328,7 +328,7 @@ We thank the maintainers of UTD-MHAD and MM-Fit datasets, and the open-source co
 
 ## 💬 Contact
 
-- Maintainer: Ismail Lamaakal — ismail Lamaakal@ieee.org  
+- Maintainer: Ismail Lamaakal — ismail.lamaakal@ieee.org  
 - Issues/bugs: please open a GitHub issue with logs, config, and environment details.
 
 ---
