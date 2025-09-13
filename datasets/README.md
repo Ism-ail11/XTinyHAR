@@ -1,5 +1,5 @@
 
-# XTinyHAR – Raw Datasets (No Preprocessing)
+# XTinyHAR – Raw Datasets
 
 This repository provides **preprocessing-free** PyTorch datasets for **UTD-MHAD** and **MM-Fit**.
 It only loads raw files and returns tensors plus metadata—**no filtering, normalization, resampling, or windowing**.
