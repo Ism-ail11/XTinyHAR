@@ -324,6 +324,7 @@ This project is released under the **MIT License** (see `LICENSE`).
 
 ---
 
+
 ## 🙏 Acknowledgments
 
 We thank the maintainers of UTD-MHAD and MM-Fit datasets, and the open-source contributors of PyTorch, ONNX Runtime, and TensorFlow Lite.
