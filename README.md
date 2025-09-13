@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Data Pre-Processing for XTinyHAR
 
 Implements the pre-processing pipeline described in the paper:
@@ -44,3 +45,6 @@ result = pp.fit_transform(
 - `skel_patches` (optional): list of `[N, P*J*D]` arrays  
 - `y`: per-window labels  
 - `meta`: list of dicts with window stats (`chosen_P`, `variance_Vw`, times, z-score stats, etc.)
+=======
+# XTinyHAR
+>>>>>>> fdc40a47a6b71f93bd795eebb041bd330379fdb2
