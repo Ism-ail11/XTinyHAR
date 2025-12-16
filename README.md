@@ -2,6 +2,10 @@
 
 XTinyHAR is a compact, edge-deployable Human Activity Recognition (HAR) framework. A multimodal **teacher** (skeleton + IMU) transfers knowledge to a lightweight **Inertial Transformer** student that uses **only IMU** at inference. The pipeline includes dynamic patching, positional embeddings, explainability (IG, attention rollout, attention similarity), and export to ONNX/TFLite for Raspberry Pi / Jetson Nano.
 
+## Cite Our work if you use our model: 
+
+Lamaakal, I., Yahyati, C., Maleh, Y. et al. A tiny inertial transformer for human activity recognition via multimodal knowledge distillation and explainable AI. Sci Rep 15, 42335 (2025). https://doi.org/10.1038/s41598-025-26297-2
+
 ## Model Architecture
 
 <!-- Optional: control size with HTML if it’s huge -->
