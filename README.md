@@ -210,25 +210,6 @@ python Our_proposed_model/xtinyhar_models/train_student.py \
 
 Key KD params are in the YAML (`distill.T=3`, `distill.alpha=0.7`) and implemented in `kd_loss.py`.
 
----
-
-## 📊 Evaluation & Reproduction
-
-### Cross-validation, metrics, confusion matrices
-- Metrics computed: Accuracy, Precision/Recall/F1 (per-class + macro/micro), Cohen’s κ, FLOPs, latency, model size.
-- Our paper’s figures/tables can be regenerated:
-
-```bash
-python Experimental_Results/examples/run_results_demo.py
-```
-
-This script outputs:
-- PNGs in `Experimental_Results/images/` (training curves, confusion matrices, bar plots)
-- LaTeX tables in `Experimental_Results/tables/` to paste directly into your paper
-
-> Replace the synthetic arrays inside the demo with your actual logs if you want exact reproduction.
-
----
 
 ## 🔍 Explainability (XAI)
 
