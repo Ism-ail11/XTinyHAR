@@ -233,32 +233,6 @@ See:
 - `XAI/xtinyhar_xai/attention_rollout.py`
 - `XAI/xtinyhar_xai/attention_similarity.py`
 
----
-
-## 📦 Edge Deployment (ONNX / TFLite)
-
-### Export to ONNX
-```bash
-python Our_proposed_model/xtinyhar_models/export_onnx.py \
-  --model runs/student_it_utd.pt \
-  --config Our_proposed_model/configs/utd_mhad.yaml \
-  --out exports/xtinyhar_student.onnx
-```
-
-### Export to TFLite (via ONNX→TF)
-```bash
-python Our_proposed_model/xtinyhar_models/export_tflite.py \
-  --onnx exports/xtinyhar_student.onnx \
-  --out exports/xtinyhar_student.tflite
-```
-
-**Raspberry Pi 4B / Jetson Nano runtime**
-- Copy the `.tflite` or `.onnx` to the device.
-- Use `tflite_runtime` on Pi; TensorRT or ONNX Runtime on Nano.
-- Batch-1 latency on our devices: **CPU 3.1 ms**, **GPU 1.2 ms** (see paper; numbers depend on clocks/OS).
-
----
-
 ## 🔬 Key Results (paper highlights)
 
 - **UTD-MHAD**: Test **98.71%** Acc / **98.71%** F1, κ=0.985  
